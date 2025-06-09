@@ -1,0 +1,35 @@
+# =========================================================
+# ARCHIVO .gitignore PRINCIPAL
+# =========================================================
+
+# Ecommerce (Frontend): Logs
+ecommerce/logs/
+ecommerce/*.log
+ecommerce/npm-debug.log*
+ecommerce/yarn-debug.log*
+ecommerce/yarn-error.log*
+ecommerce/pnpm-debug.log*
+ecommerce/lerna-debug.log*
+
+# Ecommerce (Frontend): Dependencias y Compilación
+ecommerce/node_modules/
+ecommerce/dist/
+ecommerce/dist-ssr/
+ecommerce/*.local
+
+# Ecommerce (Frontend): Editor y Sistema Operativo
+ecommerce/.vscode/*
+!ecommerce/.vscode/extensions.json
+ecommerce/.idea/
+ecommerce/.DS_Store
+ecommerce/*.suo
+ecommerce/*.ntvs*
+ecommerce/*.njsproj
+ecommerce/*.sln
+ecommerce/*.sw?
+
+# Server Ecommerce (Backend): Dependencias
+server_ecommerce/node_modules/
+
+# Server Ecommerce (Backend): Archivos de Entorno
+server_ecommerce/.env

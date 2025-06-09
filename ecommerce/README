@@ -1,0 +1,46 @@
+npm create vite@latest
+npm install
+npm i react-router-dom
+npm install @reduxjs/toolkit react-redux axios
+npm i react-toastify
+npm i jwt-decode
+npm i styled-components
+npm i react-stripe-checkout
+npm install react-icons
+npm i moment
+
+npm install @mui/material @emotion/react @emotion/styled
+npm i @mui/x-data-grid
+
+graficos
+npm i recharts
+
+---
+
+NavBar - icons - <svg/>
+
+---
+
+localStorage no es seguro se puede acceder a los
+datos confidenciales desde la consola del navegador -
+2:50 - CartSlice
+
+Tarjeta que siempre es rechazada por fondos insuficientes:
+Número de tarjeta: 4000 0000 0000 9995
+Resultado: Fondos insuficientes.
+
+Tarjeta que es rechazada por una tarjeta perdida:
+Número de tarjeta: 4000 0000 0000 9987
+Resultado: Tarjeta perdida.
+
+Tarjeta que es rechazada por un problema con la tarjeta:
+Número de tarjeta: 4000 0000 0000 0069
+Resultado: Problema con la tarjeta.
+
+Tarjeta que es rechazada por sospecha de fraude:
+Número de tarjeta: 4000 0000 0000 0119
+Resultado: Sospecha de fraude.
+
+Tarjeta que es rechazada por un error de autenticación:
+Número de tarjeta: 4000 0000 0000 3063
+Resultado: Error de autenticación.
