@@ -1,0 +1,12 @@
+npm init -y
+npm i express nodemon cors
+npm i mongoose dotenv
+npm i jsonwebtoken bcrypt joi
+npm i cloudinary
+
+stripe listen --forward-to localhost:3001/api/stripe/webhook
+
+\*\*\*pagos
+npm install --save stripe
+
+npm i moment
